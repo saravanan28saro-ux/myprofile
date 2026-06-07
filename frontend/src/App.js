@@ -1,8 +1,11 @@
-import Home from './componunts/Home';
-
+import Body from './componunts/Body';
+import Header from './componunts/Header';
 function App() {
   return (
-    <Home />
+    <div backgroundColor='black'>
+      <Header />
+      <Body />
+    </div>
   );
 }
 
