@@ -1,5 +1,5 @@
 
-import styled, { keyframes } from "styled-components";
+import styled from 'styled-components';
    
 export const Nav=styled.ul`
     display:flex;
@@ -46,17 +46,7 @@ margin:20px;
     &:hover{
         transform:scale(1.1);   }
 `
-const slideIn = keyframes`
-  from {
-    
-    transform: translateX(0px);
-  }
 
-  to {
-    
-    transform: translateX(100px);
-  }
-`;
 
 export const Scircle = styled.img`
   margin: 20px;
